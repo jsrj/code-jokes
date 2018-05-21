@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Code Joke</title>
+    </head>
+    <body>
+            <!--/*@thymesVar id="jokes" type="com.arjaycodes.codejokes.entity.Joke"*/-->
+            <ul>
+                <li th:text="${jokes.getJokeId()}">Joke ID</li>
+                <li th:text="${jokes.getJokeName()}">Joke Name</li>
+                <li th:text="${jokes.getJokeContent()}">Joke Content</li>
+            </ul>
+    </body>
+</html>
