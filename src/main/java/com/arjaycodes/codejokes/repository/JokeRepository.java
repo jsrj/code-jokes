@@ -1,4 +1,7 @@
 package com.arjaycodes.codejokes.repository;
 
-public class JokeRepository {
+import com.arjaycodes.codejokes.entity.Joke;
+import org.springframework.data.repository.CrudRepository;
+
+public interface JokeRepository extends CrudRepository<Joke, Long> {
 }
