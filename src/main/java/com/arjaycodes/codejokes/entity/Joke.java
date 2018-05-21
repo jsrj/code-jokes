@@ -20,27 +20,21 @@ public class Joke {
         this.jokeName = jokeName;
         this.jokeContent = jokeContent;
     }
-
     public Long getJokeId() {
         return jokeId;
     }
-
     public void setJokeId(Long jokeId) {
         this.jokeId = jokeId;
     }
-
     public String getJokeName() {
         return jokeName;
     }
-
     public void setJokeName(String jokeName) {
         this.jokeName = jokeName;
     }
-
     public String getJokeContent() {
         return jokeContent;
     }
-
     public void setJokeContent(String jokeContent) {
         this.jokeContent = jokeContent;
     }
@@ -52,7 +46,6 @@ public class Joke {
         Joke joke = (Joke) o;
         return Objects.equals(jokeId, joke.jokeId);
     }
-
     @Override
     public int hashCode() {
 
