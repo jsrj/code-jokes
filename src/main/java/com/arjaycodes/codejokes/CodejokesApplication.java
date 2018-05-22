@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.arjaycodes.codejokes.service"})
+@ComponentScan(basePackages = {"com.arjaycodes.codejokes"})
 public class CodejokesApplication {
 
 	public static void main(String[] args) {
