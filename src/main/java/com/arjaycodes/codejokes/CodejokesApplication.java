@@ -3,9 +3,10 @@ package com.arjaycodes.codejokes;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.arjaycodes.codejokes"})
+@ImportResource(locations = {"Joke-Config.xml"})
 public class CodejokesApplication {
 
 	public static void main(String[] args) {
